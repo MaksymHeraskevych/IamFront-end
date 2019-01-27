@@ -1,0 +1,41 @@
+@media only screen and (min-device-width : 1435px)  
+and (max-device-width : 3120px){
+	.container{
+		width: 70%;
+	}
+
+	.offer__title {
+		letter-spacing: 0.12em;
+	}
+
+}	
+
+@media only screen and (max-device-width : 1800px){
+	.hero{
+		height: 900px;
+	}
+}
+	
+
+@media only screen and (min-device-width : 320px) 
+and (max-device-width : 1120px){
+		
+
+	.logo {
+		left: 85%;
+	}
+
+	.offer__title {
+		font-size: 40px;
+	}
+
+}
+
+@media only screen and (max-device-width : 768px){
+
+	.offer__title {
+	font-weight: 900;
+	margin-bottom: 137px;
+	}
+
+}

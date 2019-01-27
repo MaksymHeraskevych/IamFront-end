@@ -1,0 +1,220 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	/*overflow-y: hidden;*/
+}
+
+.hero {
+	background: #8d66ab;
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	overflow: hidden;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+.bg-element1 {
+	background: #7e579c;
+	width: 1200px;
+	height: 600px;
+	position: absolute;
+	transform: rotate(21deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(21deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(21deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(21deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(21deg) scale(1) skew(1deg) translate(0px);
+	bottom: -450px;
+    left: -200px;
+}
+
+.bg-element2 {
+	background: rgba(100, 64, 128, 0.32);
+	width: 1200px;
+	height: 1200px;
+	position: absolute;
+	transform: rotate(28deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(28deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(28deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(28deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(28deg) scale(1) skew(1deg) translate(0px);
+	bottom: -650px;
+    right: -350px;
+}
+
+.bg-element3 {
+	width: 580px;
+	height: 1000px;
+	position: absolute;
+	transform: rotate(28deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(28deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(28deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(28deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(28deg) scale(1) skew(1deg) translate(0px);
+	top: -700px;
+    right: 150px;
+    border: 3px dotted #bba3cd;
+}
+
+.bg-element4 {
+	width: 580px;
+	height: 1000px;
+	position: absolute;
+	transform: rotate(28deg) scale(1) skew(1deg) translate(0px) !important;
+	-webkit-transform: rotate(28deg) scale(1) skew(1deg) translate(0px) !important;
+	-moz-transform: rotate(28deg) scale(1) skew(1deg) translate(0px) !important;
+	-o-transform: rotate(28deg) scale(1) skew(1deg) translate(0px) !important;
+	-ms-transform: rotate(28deg) scale(1) skew(1deg) translate(0px) !important;
+	bottom: -700px;
+    right: 50px;
+    border: 3px dotted #bba3cd;
+}
+
+.bg-element5 {
+	width: 5px;
+	height: 130px;
+	position: absolute;
+	background: #fff;
+	top: 0px;
+    left: 30%;
+}
+
+.bg-element6 {
+	width: 5px;
+	height: 209px;
+	position: absolute;
+	background: #fff;
+	bottom: 0px;
+}
+
+.bg-element7 {
+	width: 32px;
+	height: 4px;
+	position: absolute;
+	background: #fff;
+	top: 10%;
+    right:45%
+}
+
+.bg-element8 {
+	width: 32px;
+	height: 4px;
+	position: absolute;
+	background: #fff;
+	bottom: 5%;
+    right:45%
+}
+
+.block{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.man {
+	width: 471px;
+	height: 680px;
+	background: url(../img/man.png);
+	cursor: pointer;
+}
+
+.man:hover{
+	filter: grayscale(25%);
+}
+
+
+.man__circle {
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	position: absolute;
+	top: 205px;
+}
+
+.man__circle_left {
+    margin-left: 34px;
+}
+
+.man__circle_right {
+    margin-left: 144px;
+}
+
+.logo {
+	width: 100px;
+	padding-top: 20px;
+}
+
+.offer__intro {
+	font-size: 20px;
+	margin-bottom: 124px;
+}
+
+.offer__title {
+	font-weight: 900;
+	font-size: 45px;
+	margin-bottom: 137px;
+}
+
+.offer__addition {
+	font-size: 21px;
+	font-weight: 500;
+	display: block;
+}
+
+.offer__btn {
+	font-size: 17px;
+	color: #8d66ab;
+	background: #fff;
+	width: 247px;
+	height: 61px;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	font-weight: 900;
+	border: 0;
+	transition: all 0.5s ease;
+}
+
+.offer__btn:hover {
+	box-shadow: 0 0 40px rgba(0,0,0,0.3);
+}
+
+/*END BUTTON*/
+
+/*POPUP*/
+
+.overlay_popup {
+	display:none;
+	position:fixed;
+	z-index: 999;
+	top:0;
+	right:0; 
+	left:0;
+	bottom:0;
+	background:#000; 
+	opacity:0.5;
+}
+
+.popup {
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	margin: 20%;
+}
+
+/*END POPUP*/
+
+.object{
+	text-align: center;
+	background-color: #80599d;
+	padding: 50px 70px;
+	border-radius: 20px;
+    border: 2px solid;
+}
